@@ -1,0 +1,39 @@
+.logo {
+    animation-name: tobig;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    // animation-delay: 1s;
+    position: relative;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    padding-right: 12px;
+    padding-bottom: 3px;
+
+    line-height: 100%;
+
+    &::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #FDA300;
+        border-radius: 50%;
+    }
+}
+
+@keyframes tobig {
+    0% {
+        transform: scale(1.0) translate(0);
+
+    }
+
+    100% {
+        transform: scale(1.2) translate(10px);
+
+    }
+}
