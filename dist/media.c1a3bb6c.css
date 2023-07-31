@@ -1,0 +1,11 @@
+@media (max-width: 1230px) {
+  .nav .nav-list {
+    display: none;
+  }
+  .nav .nav-button {
+    display: block;
+  }
+}
+
+
+/*# sourceMappingURL=/media.c1a3bb6c.css.map */

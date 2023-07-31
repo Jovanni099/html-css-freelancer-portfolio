@@ -11,8 +11,9 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet/less" type="text/css" href="./css/media.less">
+    <!-- <link rel="stylesheet" href="./css/media.css"> -->
     <link rel="stylesheet/less" type="text/css" href="./css/main.less">
+    <link rel="stylesheet/less" type="text/css" href="./css/media.less">
     <script src="https://cdn.jsdelivr.net/npm/less"></script>
     <title>Freelancer Portfolio</title>
 </head>
@@ -23,7 +24,7 @@
             <!-- Header nav -->
             <div class="header-nav">
                 <a href="#!" class="logo">Kelvin</a>
-                <nav class="nav">
+                <nav id="nav" class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
@@ -31,6 +32,9 @@
                         <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
                     </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./assets/img/icons/NAV.svg" alt="">
+                    </button>
                 </nav>
             </div>
 
@@ -131,7 +135,6 @@
             </div>
         </div>
     </footer>
-
     <script src="./js/main.js"></script>
 </body>
 

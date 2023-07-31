@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/media.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"media.c1a3bb6c.css","sourceRoot":"..","sourcesContent":["@media (max-width: 1230px) {\n  .nav .nav-list {\n    display: none;\n  }\n  .nav .nav-button {\n    display: block;\n  }\n}\n"]}
